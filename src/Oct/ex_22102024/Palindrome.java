@@ -9,11 +9,11 @@ public class Palindrome {
     {
         String Original = "";
         String Reverse  = "";
-        Scanner in = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("Enter the String of your choice");
-        Original = in.nextLine();
-        int length = Original.length();
-        for (int i = length - 1; i > 0; i--)
+        Original = input.nextLine();
+        int len = Original.length();
+        for (int i = len - 1; i > 0; i--)
         {
             Reverse = Reverse + Original.charAt(i);
         }
